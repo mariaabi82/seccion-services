@@ -126,14 +126,12 @@ body {
             transition: 0.3s;
             display: flex;
             direction: column;
-            
+            overflow: hidden;
 
             .icono{
                 height: 60px;
                 width: auto;
-                margin-left: -50px;
-                
-                
+                margin-left: -40px;
                 
             }
             
