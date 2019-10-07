@@ -85,6 +85,15 @@ body {
     transition: 0.20s; }
     .services-cards .card:hover h3 {
       color: #1868cf; }
+  @media (min-width: 1100px) {
+    .services-cards .services {
+      height: fit-content; }
+    .services-cards .groupofcards {
+      padding: 40px 0px 40px; }
+    .services-cards .card {
+      width: 300px;
+      height: auto;
+      margin-right: 300px; } }
   @media (max-width: 1000px) {
     .services-cards .services {
       height: fit-content; }

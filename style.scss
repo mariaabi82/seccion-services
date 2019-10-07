@@ -169,6 +169,22 @@ body {
         transition: 0.20s;
     }
 
+    @media (min-width: 1100px) {
+        .services {
+            height: fit-content;
+        }
+        
+        .groupofcards {
+            padding: 40px 0px 40px;
+
+        }
+        .card {
+            width: 300px;
+            height: auto;
+            margin-right: 30px;
+        }
+    }
+    
     @media (max-width: 1000px) {
         .services {
             height: fit-content;
@@ -180,7 +196,7 @@ body {
         }
         .card {
             width: 250px;
-            height: auto;
+            height: auto;       
         }
     }
 
